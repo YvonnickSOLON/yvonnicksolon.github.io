@@ -4,9 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Curriculum vitae</title>
 </head>
-<body>
-    CV
+<body><!--Le CV va être divisé en deux parties:
+            -La partie gauche contiendra mon nom
+            -Mon profil personnel
+            -Mes compétences
+            -Mes cordonnées
+      Quand à la partie droite, elle contiendra:
+            -Mon expérience professionnelle
+            -Mes formations
+            -mes centres d'intérêt-->
+  <div class="wrapper">
+     <!--Je vais faire 2 headers, un pour chaque côté.-->
+    <header class="left-content">
+        <div class="main-title">
+            <h1 class="main-title__text">Yvonnick<br> SOLON</h1>
+            <h3 class="main-title__subtext">Technicien</h3>
+        </div>
+        <!--Le profil personnel va contenir:
+            -Un titre
+            -Un paragraphe-->
+        <div class="personnal-profile">
+            <h3 class="personnal-profile__title">profil personnel</h3>
+            <p class="personnal-profile__text">Technicien de formation, j'aime la technologie en générale et l'informatique.
+            L'intégrité et le respect sont des valeurs qui me définissent.
+            </p>
+        </div>
+        <!--Les compétences professionnelles vont se présenter sous forme de liste-->
+        <div class="professional-skill">
+            <h3 class="professional-skill__title">compétences professionnelles</h3>
+            <ul class="professional-skill__list">
+                <li class="skill">Gestion du stress</li>
+                <li class="skill">Capacité à actualiser mes connaissances</li>
+                <li class="skill">Capacité d'adaptation</li>
+                <li class="skill">Autonome</li>
+                <li class="skill">Esprit d'équipe</li>
+            </ul>
+        </div>
+        <!--Pour finir avec le côté gauche, les coordonnées-->
+        <div class="contact">
+            <h3 class="contact-info">coordonnées</h3>
+            <p class="phone-number">Mobile : 06.49.47.78.36</p>
+            <p class="mail">Mail : yvonnick.solon@gmail.com</p>
+        </div>
+    </header>
+  </div>
 </body>
 </html>
